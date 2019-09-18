@@ -25,7 +25,7 @@ Além dos insumos básicos citados, as estimativas municipais de população inc
  
  Os dashboards que criei para o meu projeto estão em [dashboards](https://github.com/brenocezardias/Projeto-BI/tree/master/Dashboards)  caso queira analisar.
  
-Também disponibilizei um Power Point com uma rápida apresentação de alguns dados que apurei e achei interessantes. Está em [Apresentação](https://github.com/brenocezardias/Projeto-BI/tree/master/Apresenta%C3%A7%C3%A3o)
+Também disponibilizei um Power Point com uma rápida apresentação de alguns dados que apurei. Está em [Apresentação](https://github.com/brenocezardias/Projeto-BI/tree/master/Apresenta%C3%A7%C3%A3o)
  
  Obrigado !
 
