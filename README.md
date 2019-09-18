@@ -1,7 +1,7 @@
 # Projeto-BI - PENSE IBGE
 Esse é um pequeno projeto para estudo pessoal, utilizando os dados da pesquisa do PENSE - IBGE
 
-# O que é o PENSE ?
+## O que é o PENSE ?
 
 Fornece estimativas do total da população dos Municípios e das Unidades da Federação brasileiras, com data de referência em 1o de julho, para o ano calendário corrente.
 
@@ -11,17 +11,17 @@ As estimativas de população publicadas anualmente são calculadas aplicando-se
 
 Além dos insumos básicos citados, as estimativas municipais de população incorporam, a cada ano, atualizações da divisão político-administrativa do País que refletem, por sua vez, as alterações dos limites territoriais dos Municípios ocorridas após o último Censo Demográfico. Uma vez que a soma das populações dos Municípios resulta no total da população da respectiva Unidade da Federação, eventuais diferenças entre a população total de uma Unidade da Federação obtida das Estimativas da População e aquela obtida das Projeções da População são resultantes da atualização da divisão político-administrativa ocorrida após o ano-base de início das projeções (e, portanto, não considerada nas Projeções da População das Unidades da Federação).
 
-  > Extraído do site https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html?=&t=o-que-e
+ > Extraído do site https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html?=&t=o-que-e
  
- #Objetivo
+ ##Objetivo
  
  Utilizei o arquivo disponibilizado com o governo com as respostas do alunos, e separei algumas perguntas para ver a incidência baseado em algumas métricas, exemplo (idade, cor, escola pública ou particular).
  
- #Como subir em seu computador
+ ##Como subir em seu computador
  
  Para os scripts e obter os dados, basta importar o arquivo excel localizado em [data] pelo importador do SQL Server, rodar o script de criação das tabelas dos modelos relacional e dimensional. Conectar esse banco no Power BI e criar dashboards ! 
  
- #Observações
+ ##Observações
  
  Os dashboards que criei para o meu projeto estão em [dashboards] caso queira analisar.
  
