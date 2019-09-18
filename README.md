@@ -19,7 +19,7 @@ Além dos insumos básicos citados, as estimativas municipais de população inc
  
  ## Como subir em seu computador
  
- Para os scripts e obter os dados, basta importar o arquivo excel localizado em [data] pelo importador do SQL Server, rodar o script de criação das tabelas dos modelos relacional e dimensional. Conectar esse banco no Power BI e criar dashboards ! 
+ Para os scripts e obter os dados, basta importar o arquivo excel localizado em [Data](https://github.com/brenocezardias/Projeto-BI/tree/master/Data) pelo importador do SQL Server, rodar o script de criação das tabelas dos modelos relacional e dimensional. Conectar esse banco no Power BI e criar dashboards ! 
  
  ## Observações
  
