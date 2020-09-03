@@ -1,31 +1,31 @@
-# Projeto-BI - PENSE IBGE
-Esse é um pequeno projeto para estudo pessoal, utilizando os dados da pesquisa do PENSE - IBGE
+# Project: Business Intelligence - PENSE IBGE
+This is a small project for personal study, using research data from the PENSE - IBGE
 
-## O que é o PENSE ?
+## What is the PENSE ?
 
-Fornece estimativas do total da população dos Municípios e das Unidades da Federação brasileiras, com data de referência em 1o de julho, para o ano calendário corrente.
+It provides estimates of the total population of Brazilian Municipalities and Federation Units, with a reference date of July 1, for the current calendar year.
 
-O IBGE divulga as estimativas de população estaduais e municipais desde 1975. A partir de 1992, passou a publicá-las no Diário Oficial da União, em cumprimento ao Art. 102 da Lei n. 8.443, de 16.07.1992, para os fins previstos no Inciso VI do Art. 1o da referida lei. Em 2013, foi publicada a Lei Complementar n. 143, de 17.07.2013, estabelecendo que entidade competente do poder executivo federal fará publicar, no Diário Oficial da União, até o dia 31 de agosto de cada ano, a relação das populações dos Municípios, e até 31 de dezembro, a relação das populações dos Estados e do Distrito Federal. As populações municipais, cabe destacar, são o insumo mais importante utilizado pelo Tribunal de Contas da União - TCU para a distribuição do Fundo de Participação dos Estados e do Distrito Federal - FPE e do Fundo de Participação dos Municípios - FPM.
+IBGE has released state and municipal population estimates since 1975. As of 1992, it began to publish them in the Federal Official Gazette, in compliance with Art. 102 of Law no. 8,443, dated 07/16/1992, for the purposes provided for in Section VI of Article 1 of the said law. In 2013, Complementary Law no. 143, dated 07/17/2013, establishing which competent entity of the federal executive power will publish, in the Official Gazette, by August 31 of each year, the list of the populations of the Municipalities, and by December 31, the list of populations of the States and the Federal District. Municipal populations, it should be noted, are the most important input used by the Federal Court of Accounts - TCU for the distribution of the State and Federal District Participation Fund - FPE and the Municipality Participation Fund - FPM.
 
-As estimativas de população publicadas anualmente são calculadas aplicando-se o método matemático desenvolvido, em 1972, por João Lira Madeira e Celso Cardoso da Silva Simões, denominado AiBi. Esse método utiliza como insumos básicos as populações obtidas das Projeções da População para o Brasil e as Unidades da Federação mais recentes, bem como o crescimento populacional de cada Município na última década, delineado pelas respectivas populações recenseadas nos dois últimos Censos Demográficos realizados. Essas populações recenseadas, que servem de base para o cálculo da tendência de crescimento populacional dos Municípios, podem ser ajustadas em consonância com os ajustes da população adotados nas Projeções da População para o Brasil e as Unidades da Federação.
+Population estimates published annually are calculated using the mathematical method developed in 1972 by João Lira Madeira and Celso Cardoso da Silva Simões, called AiBi. This method uses as basic inputs the populations obtained from the Population Projections for Brazil and the most recent Federation Units, as well as the population growth of each Municipality in the last decade, outlined by the respective populations recorded in the last two Demographic Censuses carried out. These census populations, which serve as the basis for calculating the trend of population growth in the Municipalities, can be adjusted in line with the population adjustments adopted in the Population Projections for Brazil and the Federation Units.
 
-Além dos insumos básicos citados, as estimativas municipais de população incorporam, a cada ano, atualizações da divisão político-administrativa do País que refletem, por sua vez, as alterações dos limites territoriais dos Municípios ocorridas após o último Censo Demográfico. Uma vez que a soma das populações dos Municípios resulta no total da população da respectiva Unidade da Federação, eventuais diferenças entre a população total de uma Unidade da Federação obtida das Estimativas da População e aquela obtida das Projeções da População são resultantes da atualização da divisão político-administrativa ocorrida após o ano-base de início das projeções (e, portanto, não considerada nas Projeções da População das Unidades da Federação).
+In addition to the aforementioned basic inputs, the municipal population estimates incorporate, every year, updates to the country's political-administrative division that reflect, in turn, the changes in the territorial limits of the Municipalities that occurred after the last Demographic Census. Since the sum of the populations of the Municipalities results in the total population of the respective Federation Unit, any differences between the total population of a Federation Unit obtained from Population Estimates and that obtained from Population Projections are the result of updating the political division -administrative occurred after the base year of the beginning of the projections (and, therefore, not considered in the Population Projections of the Federation Units).
 
- > Extraído do site https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html?=&t=o-que-e
+ > Extracted from the site https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html?=&t=o-que-e
  
- ## Objetivo
+ ## Objective
  
- Utilizei o arquivo disponibilizado com o governo com as respostas do alunos, e separei algumas perguntas para ver a incidência baseado em algumas métricas, exemplo (idade, cor, escola pública ou particular).
+ I used the file made available with the government with the students answers, and separated some questions to see the incidence based on some metrics, example (age, color, public or private school).
  
- ## Como subir em seu computador
+ ## How to run in your computer
  
- Para os scripts e obter os dados, basta importar o arquivo excel localizado em [Data](https://github.com/brenocezardias/Projeto-BI/tree/master/Data) pelo importador do SQL Server, rodar o script de criação das tabelas dos modelos relacional e dimensional, localizado em [SQL](https://github.com/brenocezardias/Projeto-BI/tree/master/SQL). Conectar esse banco no Power BI e criar dashboards ! 
+ For the scripts and get the data, just import the excel file located at [Data](https://github.com/brenocezardias/Projeto-BI/tree/master/Data) by the SQL Server importer, run the script for creating the tables of the relational and dimensional models, located at [SQL](https://github.com/brenocezardias/Projeto-BI/tree/master/SQL). Connect that bank to Power BI and create dashboards!
  
- ## Observações
+ ## Comments
  
- Os dashboards que criei para o meu projeto estão em [dashboards](https://github.com/brenocezardias/Projeto-BI/tree/master/Dashboards)  caso queira analisar.
+ The dashboards I created for my project are in [dashboards](https://github.com/brenocezardias/Projeto-BI/tree/master/Dashboards) if you want to analyze.
  
-Também disponibilizei um Power Point com uma rápida apresentação de alguns dados que apurei. Está em [Apresentação](https://github.com/brenocezardias/Projeto-BI/tree/master/Apresenta%C3%A7%C3%A3o)
+I also made available a Power Point with a quick presentation of some data that I found. It's at [Presentation](https://github.com/brenocezardias/Projeto-BI/tree/master/Apresenta%C3%A7%C3%A3o)
  
- Obrigado !
+ Thank you for your time !
 
